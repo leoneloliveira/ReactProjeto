@@ -10,14 +10,14 @@ const products = [
     "id": 1,
     "title": "Produto 1",
     "description": "Descrição detalhada do produto 1.",
-    "imageUrl": "https://img.freepik.com/fotos-gratis/baralho-de-cartas-em-fundo-verde_23-2148952340.jpg?w=1380&t=st=1723697604~exp=1723698204~hmac=1f4c3b1e0ee118909d5fa73cc0d9e9362d94dcf50781b2d3559b225be33203ef"
+    "imageUrl": "https://via.placeholder.com/150"
     
     },
   {
     "id": 2,
     "title": "Produto 2",
     "description": "Descrição detalhada do produto 2.",
-    "imageUrl": "https://img.freepik.com/fotos-gratis/baralho-de-cartas-em-fundo-verde_23-2148952340.jpg?w=1380&t=st=1723697604~exp=1723698204~hmac=1f4c3b1e0ee118909d5fa73cc0d9e9362d94dcf50781b2d3559b225be33203ef"
+    "imageUrl": "https://via.placeholder.com/150"
     },
     {
     "id": 3,
