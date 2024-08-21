@@ -1,14 +1,14 @@
 
 import styled from 'styled-components';
 
-const Titlee = styled.h1`
+const Titulo = styled.h1`
   text-align: center;
   font-size: 2em;
   margin: 20px 0;
 `;
 
 const Title = () => {
-  return <Titlee>Produtos</Titlee>;
+  return <Titulo>Produtos</Titulo>;
 };
 
 export default Title;

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import Card from './Card';
 
 
-const Productss = styled.div`
+const Produtostyle = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -12,7 +12,7 @@ const Productss = styled.div`
 
 const Products = () => {
   
-  const products = [
+  const produtos = [
     {
       "id": 1,
       "title": "Produto 1",
@@ -143,8 +143,8 @@ const Products = () => {
   
 
   return (
-    <Productss>
-      {products.map(({ id, title, description, imageUrl }) => (
+    <Produtostyle>
+      {produtos.map(({ id, title, description, imageUrl }) => (
       <Card
         key={id}
         title={title}
@@ -152,7 +152,7 @@ const Products = () => {
         imageUrl={imageUrl}
       />
     ))}
-    </Productss>
+    </Produtostyle>
   );
 };
 

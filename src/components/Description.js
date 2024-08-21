@@ -1,7 +1,7 @@
 
 import styled from 'styled-components';
 
-const Descriptionn = styled.p`
+const Descricao = styled.p`
   text-align: center;
   font-size: 1.2em;
   margin-bottom: 20px;
@@ -9,7 +9,7 @@ const Descriptionn = styled.p`
 `;
 
 const Description = () => {
-  return <Descriptionn>Veja os  produtos.</Descriptionn>;
+  return <Descricao>Veja os  produtos.</Descricao>;
 };
 
 export default Description;

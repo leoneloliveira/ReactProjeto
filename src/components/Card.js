@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import Image from './Image';
 
-const Cardd = styled.div`
+const Cartao= styled.div`
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 20px;
@@ -14,23 +14,23 @@ const Cardd = styled.div`
   }
 `;
 
-const CardTitle = styled.h2`
+const CartaoTitulo = styled.h2`
   font-size: 1.5em;
   margin-bottom: 10px;
 `;
 
-const CardDescription = styled.p`
+const CartaoDescricao = styled.p`
   font-size: 1em;
   color: #666;
 `;
 
 const Card = ({ title, description, imageUrl }) => {
   return (
-    <Cardd>
+    <Cartao>
       <Image src={imageUrl} alt={title} />
-      <CardTitle>{title}</CardTitle>
-      <CardDescription>{description}</CardDescription>
-    </Cardd>
+      <CartaoTitulo>{title}</CartaoTitulo>
+      <CartaoDescricao>{description}</CartaoDescricao>
+    </Cartao>
   );
 };
 
