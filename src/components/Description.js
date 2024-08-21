@@ -9,7 +9,7 @@ const Descriptionn = styled.p`
 `;
 
 const Description = () => {
-  return <Descriptionn>Veja nossa incrível seleção de produtos.</Descriptionn>;
+  return <Descriptionn>Veja os  produtos.</Descriptionn>;
 };
 
 export default Description;
